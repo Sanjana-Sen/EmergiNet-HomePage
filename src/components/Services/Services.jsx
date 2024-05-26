@@ -1,34 +1,36 @@
 import React from "react";
-import { FaCameraRetro } from "react-icons/fa";
-import { GiNotebook } from "react-icons/gi";
+import { FaLock } from "react-icons/fa";
+import { FaUsers } from "react-icons/fa";
+
+import { AiFillSafetyCertificate } from "react-icons/ai";
 import { SlNote } from "react-icons/sl";
 
 const skillsData = [
   {
-    name: "Best Price",
+    name: "Vehicle Security Increase",
     icon: (
-      <FaCameraRetro className="text-5xl text-primary group-hover:text-black duration-300" />
+      <FaLock className="text-5xl text-primary group-hover:text-black duration-300" />
     ),
     link: "#",
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+    description: "By usinglocation, the user and his family members will be able to monitor vehicles as well.This will alow them to maintain the vehicles safety and also improve its comfort",
     aosDelay: "0",
   },
   {
     name: "Fast and Safe",
     icon: (
-      <GiNotebook className="text-5xl text-primary group-hover:text-black duration-300" />
+      <FaUsers className="text-5xl text-primary group-hover:text-black duration-300" />
     ),
     link: "#",
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+    description: "By using this services, the medical supplies & assistance reach the needy people so rapidly whic lowers unintentional moratily ratio.",
     aosDelay: "500",
   },
   {
-    name: "Experience Drivers",
+    name: "Customer Safety Increase",
     icon: (
-      <SlNote className="text-5xl text-primary group-hover:text-black duration-500" />
+      <AiFillSafetyCertificate className="text-5xl text-primary group-hover:text-black duration-500" />
     ),
     link: "#",
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+    description: "New software can boost customer safety! Imagine alarms warning of accidents or self-driving cars preventing crashes. By automating tasks and improving awareness, software safeguards consumers..",
     aosDelay: "1000",
   },
 ];

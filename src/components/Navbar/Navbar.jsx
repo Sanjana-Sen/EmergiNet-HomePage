@@ -11,17 +11,17 @@ export const Navlinks = [
   },
   {
     id: 2,
-    name: "CARS",
+    name: "ABOUT",
     link: "/#cars",
   },
   {
     id: 1,
-    name: "ABOUT",
+    name: "SERVICES",
     link: "/#about",
   },
   {
     id: 1,
-    name: "BOOKING",
+    name: "CONTACT",
     link: "/#booking",
   },
 ];
@@ -39,7 +39,7 @@ const Navbar = ({ theme, setTheme }) => {
       <div className="container py-2 md:py-0">
         <div className="flex justify-between items-center">
           <div>
-            <span className="text-3xl font-bold font-serif">Car Rental</span>
+            <span className="text-3xl font-bold font-serif">EmergiNet</span>
           </div>
           <nav className="hidden md:block">
             <ul className="flex items-center gap-8">
@@ -51,6 +51,7 @@ const Navbar = ({ theme, setTheme }) => {
                   >
                     {name}
                   </a>
+                 
                 </li>
               ))}
               {/* DarkMode feature implement */}

@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
-import carPng from "../../assets/car.png";
-import yellowCar from "../../assets/banner-car.png";
+import carbg from "../../assets/car-gps-tracker-hero.webp";
+  import yellowCar from "../../assets/banner-car.png";
 import AOS from "aos";
 
 const Hero = ({ theme }) => {
@@ -18,25 +18,24 @@ const Hero = ({ theme }) => {
             className="order-1 sm:order-2"
           >
             <img
-              src={theme === "dark" ? carPng : yellowCar}
+              src={theme === "dark" ? carbg : yellowCar}
               alt=""
-              className="sm:scale-125 relative -z-10 max-h-[600px] drop-shadow-[2px_20px_6px_rgba(0,0,0,0.50)]"
+              className="w-34 h-30"
             />
           </div>
           <div className="space-y-5 order-2 sm:order-1 sm:pr-32 ">
-            <p data-aos="fade-up" className="text-primary text-2xl font-serif">
-              Effortless
+            <p data-aos="fade-up" className="text-primary text-5xl font-serif">
+              A technology that help in your emergency
             </p>
             <h1
               data-aos="fade-up"
               data-aos-delay="600"
-              className="text-5xl lg:text-7xl font-semibold font-serif"
+              className="text-2xl lg:text-7xl font-semibold font-serif"
             >
-              Car Rental
+       Navigation Based system
             </h1>
             <p data-aos="fade-up" data-aos-delay="1000">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
-              veritatis explicabo quibusdam quae reprehenderit ab{" "}
+             We are here to save your life{" "}
             </p>
             <button
               data-aos="fade-up"
